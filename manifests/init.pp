@@ -1,5 +1,5 @@
 # A class to manage ZFS on ubuntu hosts
-class zfs(
+class zfsmodule (
   $fuse = false,
 ){
   case $::operatingsystem {
