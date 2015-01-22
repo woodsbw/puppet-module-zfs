@@ -4,9 +4,9 @@
   "author": "Spencer Krum",
   "summary": "Install and configure zfs",
   "license": "ASL 2.0",
-  "source": "git://github.com/nibalizer/puppet-module-zfs.git",
-  "project_page": "https://github.com/nibalizer/puppet-module-zfs",
-  "issues_url": "https://github.com/nibalizer/puppet-module-zfs/issues",
+  "source": "https://github.com/woodsbw/puppet-module-zfs.git",
+  "project_page": "https://github.com/woodsbw/puppet-module-zfs",
+  "issues_url": "https://github.com/woodsbw/puppet-module-zfs/issues",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
