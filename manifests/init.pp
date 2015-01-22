@@ -9,13 +9,8 @@ class zfsmodule (
           ensure => present,
         }
       } else {
-        stage { 'ppa':
-          before => Stage['main'],
-        }
         # install the ppa repos
-        class {'repo':
-          stage => ppa,
-        }->
+        class {'repo':}->
         package {'ubuntu-zfs':
           ensure => latest,
         }
