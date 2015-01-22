@@ -1,5 +1,5 @@
 {
-  "name": "woodsbw-zfs",
+  "name": "woodsbw-zfsmodule",
   "version": "1.2.0",
   "author": "Spencer Krum",
   "summary": "Install and configure zfs",
